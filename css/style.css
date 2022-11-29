@@ -46,6 +46,14 @@ body {
     background-color: #F29E33;
 }
 
+.pink {
+    background-color: #D763A1;
+}
+
+.lime {
+    background-color: #B0C925;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -79,32 +87,33 @@ nav {
 
 .button{
     display: inline;
-    margin: 0px 2px;
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 8px 12px;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 5px;
 }
 
 .task.button {
     color: white;
-    font-size: 14px;
     background-color: #48ADF1;
-    padding: 8px 12px;
     border-radius: 5px;
 }
 
 .section.button {
     color: #b9bec1;
-    font-size: 14px;
-    padding: 8px 12px;
     border: 2px solid #b9bec1;
-    border-radius: 5px;
 }
 
 /* Task List */
 .task-list {
     padding: 20px 80px;
     background-color: white;
+    border-radius: 0px 0px 10px 10px;
 }
 
-.task {
+.task-header {
     margin: 30px 0px;
 }
 
