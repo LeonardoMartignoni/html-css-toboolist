@@ -5,13 +5,15 @@
     box-sizing: border-box;
 }
 
-/* Font Import */
+/* Utility */
 body {
+    background-color: #F5F8F9;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 header {
+    background-color: white;
     height: 80px;
     padding: 10px;
 }
@@ -24,4 +26,37 @@ header {
 #text-logo {
     display: inline-block;
     font-size: 50px;
+}
+
+/* Main */
+.container {
+    background-color: white;
+    width: 900px;
+    margin: 50px auto;
+}
+
+nav {
+    padding: 20px 80px;
+    margin-bottom: 20px;
+}
+
+.button{
+    display: inline;
+    margin: 0px 2px;
+}
+
+.task.button {
+    color: white;
+    font-size: 14px;
+    background-color: #48ADF1;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.section.button {
+    color: #b9bec1;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: 2px solid #b9bec1;
+    border-radius: 5px;
 }
