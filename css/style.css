@@ -60,3 +60,12 @@ nav {
     border: 2px solid #b9bec1;
     border-radius: 5px;
 }
+
+/* Task List */
+.task-list {
+    padding: 20px 80px;
+}
+
+.task-title {
+    color: #3f4349;
+}
