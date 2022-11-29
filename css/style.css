@@ -89,21 +89,20 @@ nav {
     display: inline;
     margin-right: 5px;
     font-size: 14px;
-    padding: 8px 12px;
     font-size: 14px;
-    padding: 8px 12px;
     border-radius: 5px;
 }
 
 .task.button {
     color: white;
     background-color: #48ADF1;
-    border-radius: 5px;
+    padding: 8px 12px;
 }
 
 .section.button {
     color: #b9bec1;
     border: 2px solid #b9bec1;
+    padding: 6px 10px;
 }
 
 /* Task List */
