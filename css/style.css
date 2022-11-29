@@ -1,0 +1,27 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font Import */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    height: 80px;
+    padding: 10px;
+}
+
+#boolean-logo {
+    margin-left: 10px;
+    height: 100%;
+}
+
+#text-logo {
+    display: inline-block;
+    font-size: 50px;
+}
